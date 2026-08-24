@@ -71,16 +71,6 @@ agent = create_agent(
     system_prompt=system_prompt
 )
 
-def get_weather(city: str) -> str:
-    """
-    Get the current weather for a specified city using the agent.
-
-    Args:
-        city (str): The name of the city (e.g., 'Athens').
-    """
-
-    return 
-
 # Main App -----------------------------------------------------------------------------------------
 
 def main():
