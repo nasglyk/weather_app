@@ -9,7 +9,7 @@ import os
 import requests
 from dotenv import load_dotenv
 
-load_dotenv(dotenv_path="C:\\Users\\nasso\\Desktop\\langchain\\lca-lc-foundations\\example.env", override=True)
+load_dotenv() # reads variables from a .env file - set the required api keys there
 
 # Weather api tool set up -----------------------------------------------------------------------------------------
 
